@@ -363,7 +363,7 @@ img {
 /* BUTTON */
 
 .button {
- background-color: gray;
+ background-color: #0D1117;
  padding: 10px;
  border-radius: 10px;
  color: white;
@@ -385,6 +385,7 @@ img {
 .portfolio__item {
  margin: 0 var(--mb-2);
  cursor: pointer;
+ color: grey;
 }
 
 .portfolio__content {
@@ -464,7 +465,7 @@ img {
 }
 
 .active-portfolio {
- color: gray;
+ color: white;
  font-weight: var(--font-semi-bold);
 }
 
@@ -533,7 +534,7 @@ img {
     }
     
     .portfolio__data {
-        height: 200px;
+        height: 150px;
         width: 180px;
     }
     
