@@ -383,7 +383,7 @@ img {
 }
 
 .portfolio__item {
- margin: 0 var(--mb-2);
+ margin: var(--mb-2);
  cursor: pointer;
  color: grey;
 }
@@ -402,22 +402,19 @@ img {
 }
 
 .portfolio__data {
- padding: 1.5rem;
- height: 150px;
- width: 260px;
+ padding: 2rem;
+ height: 200px;
+ width: 290px;
 }
 
 .portfolio__subtitle {
- font-size: var(--small-font-size);
- color: black;
-}
-
-.portfolio__description {
-    color: black;
+ width: 100%;
+ font-size: 0.7rem;
+ color: red;
 }
 
 .portfolio__title {
- font-size: var(--h3-font-size);
+ font-size: 1rem;
  color: black;
  margin: var(--mb-2) 0;
 }
@@ -431,6 +428,7 @@ img {
 }
 
 .card__header {
+    width: auto;
     margin: 5px;
 }
 
@@ -525,21 +523,21 @@ img {
 @media screen and (max-width: 575px) {
     .portfolio__container {
         grid-template-columns: repeat(2,2fr);
-
+        width: 100%;
     }
     
     .portfolio__subtitle {
-        font-size: 6px;
+        font-size: 0.5rem;
         color: black;
     }
     
     .portfolio__data {
-        height: 150px;
+        height: 200px;
         width: 180px;
     }
     
     .portfolio__title {
-        font-size: 12px;
+        font-size: 0.6rem;
         color: black;
         margin: var(--mb-2) 0;
     }
@@ -550,8 +548,8 @@ img {
     }
     
     .button__card {
-        font-size: 10px;
-        margin: 10px 5px 5px 2px;
+        font-size: 0.4rem;
+        margin: 1px 1px 1px 1px;
     }
 }
 
